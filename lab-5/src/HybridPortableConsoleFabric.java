@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class HybridPortableConsoleFabric {
+public class HybridPortableConsoleFabric extends PortableConsoleFabric {
     public PortableConsole createConsole() {
         Random rand = new Random();
 
